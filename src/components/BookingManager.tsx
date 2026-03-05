@@ -134,7 +134,7 @@ export default function BookingManager() {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-serif text-primary mb-2">Request Confirmed</h3>
-                  <p className="text-gray-600">Thank you, {name || "there"}. We'll see you for your {service} on {date} at {time}. We've sent an email with the details.</p>
+                  <p className="text-gray-600">Thank you, {name || "there"}. We&apos;ll see you for your {service} on {date} at {time}. We&apos;ve sent an email with the details.</p>
                   <button onClick={close} className="mt-8 bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-medium transition-colors">
                     Close
                   </button>

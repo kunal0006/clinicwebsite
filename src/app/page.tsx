@@ -137,7 +137,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-foreground/80 font-light italic mb-8 leading-relaxed">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </p>
                 <div>
                   <h4 className="font-medium text-primary">{testimonial.name}</h4>
